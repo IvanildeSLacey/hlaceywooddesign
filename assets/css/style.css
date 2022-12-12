@@ -202,6 +202,64 @@ a {
         margin-right: 10px;
     }
 
+    /* Contact Page */
+
+    .wrapper{
+        display: flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 60vh;
+      }
+      .wrapper .static-text{
+        color: #172741;
+        font-size: 60px;
+        font-weight: 400;
+      }
+      .wrapper .dynamic-text{
+        margin-left: 15px;
+        height: 90px;
+        line-height: 90px;
+        overflow: hidden;
+      }
+      .dynamic-text li{
+        list-style: none;
+        color: #c5aa64;
+        font-size: 60px;
+        font-weight: 500;
+        position: relative;
+        top: 0;
+        animation: slide 12s steps(4) infinite;
+      }
+      @keyframes slide {
+        100%{
+          top: -360px;
+        }
+      }
+      .dynamic-text li span{
+        position: relative;
+        margin: 5px 0;
+        line-height: 90px;
+      }
+      .dynamic-text li span::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 110%;
+        width: 100%;
+        background: white;
+        border-left: 2px solid #c5aa64;
+        animation: typing 3s steps(19) infinite;
+      }
+      @keyframes typing {
+        40%, 60%{
+          left: calc(100% + 30px);
+        }
+        100%{
+          left: 0;
+        }
+      }
+
 
   /* footer */
 footer {
