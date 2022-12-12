@@ -86,7 +86,7 @@ a {
   .nav-menu {
     position: fixed;
     left: -110%;
-    top: 95px;
+    top: 90px;
     gap: 0;
     flex-direction: column;
     background-color: #172741;
@@ -100,6 +100,6 @@ a {
   
   .nav-menu.active {
     left: 0;
-    
   }
+  
 }
