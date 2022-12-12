@@ -102,6 +102,44 @@ a {
     transition: opacity 0.75s ease-in-out;
   }
 
+
+  /* footer */
+footer {
+    bottom: 0;
+    max-width: 100%;
+    height: 150px;
+    display: inline;
+    text-align: center;
+}
+
+#footer-content {
+    background: #172741;
+}
+
+#copywrite p {
+  color: white;
+  padding-bottom: 0.5s%;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 250%;
+    margin: 1%;
+    padding: 5%;
+    color: white;
+}
+
+.social-networks i:hover {
+    color: #C4A862;
+}
+
 @media(max-width:786px){
   .hamburger{
     display: block;
