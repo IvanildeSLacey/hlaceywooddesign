@@ -102,6 +102,26 @@ a {
     transition: opacity 0.75s ease-in-out;
   }
 
+  /* Main msg home page */ 
+  .plain-text {
+    font-size: 15px;
+    color: #172741;
+    font-weight: bold;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url('/assets/images/logot.png');
+    background-size: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+  
+    .plain-text h1 {
+      color: #172741;
+    }
+
 
   /* footer */
 footer {
