@@ -17,7 +17,7 @@
           <ul class="nav-menu">
             <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
             <li class="nav-item"><a href="aboutus.html" class="nav-link">ABOUT</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">RECENT PROJECTS</a></li>
+            <li class="nav-item"><a href="recentwork.html" class="nav-link">RECENT PROJECTS</a></li>
             <li class="nav-item"><a href="contactus.html" class="nav-link">CONTACT</a></li>
           </ul>
           <div class="hamburger">
@@ -42,14 +42,84 @@
 
     <section>
         <div class="plain-text">
-            <h1>At Harry Lacey Wood Design we value durability!
-            Everything we do is made to measure, and carefully designed that you can make the best use of your space, with the best available material within your budget.
-        </h1>
+            <h1>At Harry Lacey Wood Design we value durability! <br>
+                Everything we do is made to measure, and carefully designed that you can make the best use of your space,<br>
+                with the best available material within your budget.
+            </h1>
         </div>
     </section>
     <div class="abt-btn">
         <a href="aboutus.html" class="button" aria-label="Open about us page"><span>About Us</span></a>
     </div>
+    <h1>RECENT WORK</h1>
+    <div id="content-wrapper">
+		<div class="column">
+			<img id=featured src="assets/images/wardrobesq.jpeg">
+
+			<div id="slide-wrapper" >
+				<div class="arrow">
+                    <i class="fa-solid fa-arrow-left" id="slideLeft"></i>
+                </div>
+				<div id="slider">
+					<img class="thumbnail active" src="assets/images/wardrobesq.jpeg">
+					<img class="thumbnail" src="assets/images/wardrobe2sq.jpeg">
+					<img class="thumbnail" src="assets/images/drawersq.jpeg">
+					<img class="thumbnail" src="assets/images/drawer2sq.jpeg">
+					<img class="thumbnail" src="assets/images/whitewardrobesq.jpeg">
+					<img class="thumbnail" src="assets/images/whitewardrobe2sq.jpeg">
+					<img class="thumbnail" src="assets/images/whitewardrobedrawersq.jpeg">
+                    <img class="thumbnail" src="assets/images/whitewardrobedoorsq.jpeg">
+				</div>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right" id="slideRight"></i>
+                </div>
+			</div>
+		</div>
+		<div class="column">
+			<h1>Wardrobes</h1>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			
+            <div class="abt-btn">
+                <a class="button" href="contactus.html"><span>Contact Us</span></a>
+            </div>
+		</div>
+        
+	</div>
+
+	<!-- <script type="text/javascript">
+		let thumbnails = document.getElementsByClassName('thumbnail')
+
+		let activeImages = document.getElementsByClassName('active')
+
+		for (var i=0; i < thumbnails.length; i++){
+
+			thumbnails[i].addEventListener('mouseover', function(){
+				console.log(activeImages)
+				
+				if (activeImages.length > 0){
+					activeImages[0].classList.remove('active')
+				}
+				
+
+				this.classList.add('active')
+				document.getElementById('featured').src = this.src
+			})
+		}
+
+
+		let buttonRight = document.getElementById('slideRight');
+		let buttonLeft = document.getElementById('slideLeft');
+
+		buttonLeft.addEventListener('click', function(){
+			document.getElementById('slider').scrollLeft -= 180
+		})
+
+		buttonRight.addEventListener('click', function(){
+			document.getElementById('slider').scrollLeft += 180
+		}) -->
+
+
+	</script>
 
 
     <footer>

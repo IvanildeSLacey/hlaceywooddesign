@@ -12,6 +12,10 @@ body {
   line-height: 1.6;
 }
 
+h1 {
+  text-align: center;
+}
+
 header {
   background-color: #172741;
 }
@@ -166,12 +170,12 @@ a {
   .plain-text {
     font-size: 15px;
     margin: 0 50px;
-    height: 60vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     position: relative;
-    background-image: url('/assets/images/logot.png');
     background-size: 40vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -605,6 +609,98 @@ a {
     transform: translate(181%, 11%);
     filter: invert(10%) sepia(47%) saturate(1513%) hue-rotate(188deg) brightness(94%) contrast(89%);
     opacity: 20%;
+  }
+
+
+  /* Recent work image galery */
+  #content-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .column{
+    width: 600px;
+    padding: 10px;
+  
+  }
+  
+  #featured{
+    max-width: 500px;
+    max-height: 600px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid black;
+  
+  }
+  
+  .thumbnail{
+    object-fit: cover;
+    max-width: 180px;
+    max-height: 100px;
+    cursor: pointer;
+    opacity: 0.5;
+    margin: 5px;
+    border: 2px solid black;
+  
+  }
+  
+  .thumbnail:hover{
+    opacity:1;
+  }
+  
+  .active{
+    opacity: 1;
+  }
+  
+  #slide-wrapper{
+    max-width: 500px;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+  }
+  
+  #slider{
+    width: 440px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  
+  #slider::-webkit-scrollbar {
+      width: 8px;
+  
+  }
+  
+  #slider::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  
+  }
+   
+  #slider::-webkit-scrollbar-thumb {
+    background-color: #172741;
+    outline: 1px solid slategrey;
+     border-radius: 100px;
+  
+  }
+  
+  #slider::-webkit-scrollbar-thumb:hover{
+    outline: 3px solid #c5aa64;
+  }
+  
+  .arrow{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .arrow:hover{
+    opacity: .5;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
   }
 
   /* footer */

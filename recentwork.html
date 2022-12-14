@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Lacey Wood Desing</title>
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/feb4a38862.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav id="nav" class="navbar">
+          <a href="index.html" class="nav-branding"><img src="assets/images/hllogo.png" class="logo"></a>
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="aboutus.html" class="nav-link">ABOUT</a></li>
+            <li class="nav-item"><a href="recentwork.html" class="nav-link">RECENT PROJECTS</a></li>
+            <li class="nav-item"><a href="contactus.html" class="nav-link">CONTACT</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>      
+          </div>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+    </header>
+    <div class="carousel">
+        <div class="img-container">
+          <img src="assets/images/fionnfulllivingroom.jpeg">
+          <img src="assets/images/maintvunit.jpeg">
+          <img src="assets/images/banner.jpg">
+          <img src="assets/images/davidhomeoffice.jpg">
+          <img src="assets/images/office.jpg">
+        </div>
+    </div>
+
+    <section>
+        <div class="plain-text">
+            <h1>At Harry Lacey Wood Design we value durability! <br>
+                Everything we do is made to measure, and carefully designed that you can make the best use of your space,<br>
+                with the best available material within your budget.
+            </h1>
+        </div>
+    </section>
+    <div class="abt-btn">
+        <a href="aboutus.html" class="button" aria-label="Open about us page"><span>About Us</span></a>
+    </div>
+    <h1>RECENT WORK</h1>
+    <div id="content-wrapper">
+		<div class="column">
+			<img id=featured src="assets/images/wardrobesq.jpeg">
+
+			<div id="slide-wrapper" >
+				<div class="arrow">
+                    <i class="fa-solid fa-arrow-left" id="slideLeft"></i>
+                </div>
+				<div id="slider">
+					<img class="thumbnail active" src="assets/images/wardrobesq.jpeg">
+					<img class="thumbnail" src="assets/images/wardrobe2sq.jpeg">
+					<img class="thumbnail" src="assets/images/drawersq.jpeg">
+					<img class="thumbnail" src="assets/images/drawer2sq.jpeg">
+					<img class="thumbnail" src="assets/images/whitewardrobesq.jpeg">
+					<img class="thumbnail" src="assets/images/whitewardrobe2sq.jpeg">
+					<img class="thumbnail" src="assets/images/whitewardrobedrawersq.jpeg">
+                    <img class="thumbnail" src="assets/images/whitewardrobedoorsq.jpeg">
+				</div>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right" id="slideRight"></i>
+                </div>
+			</div>
+		</div>
+		<div class="column">
+			<h1>Wardrobes</h1>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			
+            <div class="abt-btn">
+                <a class="button" href="contactus.html"><span>Contact Us</span></a>
+            </div>
+		</div>
+        
+	</div>
+
+	<!-- <script type="text/javascript">
+		let thumbnails = document.getElementsByClassName('thumbnail')
+
+		let activeImages = document.getElementsByClassName('active')
+
+		for (var i=0; i < thumbnails.length; i++){
+
+			thumbnails[i].addEventListener('mouseover', function(){
+				console.log(activeImages)
+				
+				if (activeImages.length > 0){
+					activeImages[0].classList.remove('active')
+				}
+				
+
+				this.classList.add('active')
+				document.getElementById('featured').src = this.src
+			})
+		}
+
+
+		let buttonRight = document.getElementById('slideRight');
+		let buttonLeft = document.getElementById('slideLeft');
+
+		buttonLeft.addEventListener('click', function(){
+			document.getElementById('slider').scrollLeft -= 180
+		})
+
+		buttonRight.addEventListener('click', function(){
+			document.getElementById('slider').scrollLeft += 180
+		}) -->
+
+
+	</script>
+
+
+    <footer>
+        <div id="footer-content">
+            <ul class="social-networks">
+                <li>
+                    <a href="tel:353877699962" target="_blank" rel="noopeneer" aria-label="Call us on 0877699962"><i class="fa-solid fa-phone"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100071893128347" target="_blank" rel="noopener" aria-label="Visit our facebook page (link opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/harrylaceywooddesign/" target="_blank" rel="noopener" aria-label="Check out our instagram page (link opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://wa.me/353877699962" target="_blank" rel="noopener" aria-label="Contact us on whatsapp (opens in a new tab)"><i class="fa-brands fa-whatsapp"></i></a>
+                </li>
+            </ul>
+            <div id="copywrite">
+                <p>@2022 by Harry Lacey Wood Design</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="assets/js/script.js"></script>
+</html>
