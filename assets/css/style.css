@@ -870,7 +870,7 @@ footer {
   }
 }
 
-@media(max-width:786px){
+@media(max-width:768px){
   .hamburger{
     display: block;
   }
@@ -904,6 +904,22 @@ footer {
   
   .nav-menu.active {
     left: 0;
+  }
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info:before {
+    bottom: initial;
+    top: -75px;
+    right: 65px;
+    transform: scale(0.95);
+  }
+
+  .contact-form:before {
+    top: -13px;
+    left: initial;
+    right: 70px;
   }
   
 }
