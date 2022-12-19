@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description" content="Harry Lacey Carpentry, Carpentry services in Ireland">
+    <meta name="keywords" content="Harry Lacey, carpentry services, carpenter Ireland, carpenter Tipperary, carpenter Thurles, carpenter Dublin, joinery, bespoke wardrobes, alcove units, bespoke kitchen, walk-in wardrobes, bespoke office, panneling, slatted wall, interior design">
     <title>Harry Lacey Wood Desing</title>
 
     <!--Fontawesome-->
@@ -111,10 +113,26 @@
                         <span>Email</span>
                     </div>
                     <div class="input-container">
-                        <input type="tel" name="phone" class="input"  required />
-                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" class="input" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required />
+                        <label for="phone">Phone (xxx xxx xxxx)</label>
                         <span>Phone</span>
                     </div>
+                    <label for="lkfor" class="lk">I am looking for:</label>
+                    <select name="lkfor" class="lkfor">
+                        <option value="lkkitchen">Kitchen</option>
+                        <option value="lkwardrobe">Wardrobe</option>
+                        <option value="lktvunit">Alcove/TV Unit</option>
+                        <option value="lkoffice">Office</option>
+                        <option value="lksmelse">Something else</option>
+                    </select>
+                    <br>
+                    <label for="lkfor" class="lk">To be done:</label>
+                    <select name="lkfor" class="lkfor">
+                        <option value="lkkitchen">Next month</option>
+                        <option value="lkwardrobe">Next 2-3 months</option>
+                        <option value="lktvunit">Next 4-6 months</option>
+                        <option value="lkoffice">Not sure yet</option>
+                    </select>
                     <div class="input-container textarea">
                         <textarea name="message" class="input"></textarea>
                         <label for="message">Message</label>

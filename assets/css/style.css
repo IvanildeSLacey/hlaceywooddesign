@@ -172,15 +172,16 @@ a {
 
   /* Main msg home page */ 
   .plain-text {
-    font-size: 15px;
-    margin: 0 50px;
+    font-size: 1rem;
+    margin: 8vh;
     height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative;
-    background-size: 40vh;
+    /* position: relative; */
+    background-image: url("/assets/images/logot.png");
+    background-size: 30vh;
     background-repeat: no-repeat;
     background-position: center;
     }
@@ -329,6 +330,15 @@ a {
 
       /* Form */
 
+  .lkfor {
+    color: white;
+    background-color: #172741;
+  }
+
+  .lk {
+    color:  white;
+  }
+
   .form-container {
     position: relative;
     width: 100%;
@@ -390,7 +400,7 @@ a {
   }
   
   form {
-    padding: 2.3rem 2.2rem;
+    padding: 2.3rem 2.3rem;
     z-index: 10;
     overflow: hidden;
     position: relative;
@@ -406,7 +416,9 @@ a {
   
   .input-container {
     position: relative;
-    margin: 1rem 0;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
   }
   
   .input {
@@ -452,10 +464,10 @@ a {
   
   .btn {
     padding: 0.6rem 1.3rem;
-    background-color: #fff;
+    background-color: #172741;
     border: 2px solid #fafafa;
     font-size: 0.95rem;
-    color: #c5aa64;
+    color: white;
     line-height: 1;
     border-radius: 25px;
     outline: none;
@@ -465,8 +477,8 @@ a {
   }
   
   .btn:hover {
-    background-color: transparent;
-    color: #fff;
+    background-color: white;
+    color: #c5aa64;
   }
   
   .input-container span {
@@ -627,6 +639,7 @@ a {
 
   #recenth1 {
     margin-bottom: 50px;
+    text-decoration: overline;
   }
   
   .column{
@@ -844,22 +857,22 @@ footer {
 }
 
 .social-networks {
-    text-align: center;
+  text-align: center;
 }
 
 .social-networks > li {
-    display: inline;
+  display: inline;
 }
 
 .social-networks i {
-    font-size: 250%;
-    margin: 1%;
-    padding: 5%;
-    color: white;
+  font-size: 250%;
+  margin: 1%;
+  padding: 5%;
+  color: white;
 }
 
 .social-networks i:hover {
-    color: #C4A862;
+  color: #C4A862;
 }
 
 /* Media Queries*/
@@ -871,6 +884,16 @@ footer {
 }
 
 @media(max-width:768px){
+  .plain-text {
+    font-size: 0.5rem;
+    margin: 0 auto;
+  }
+
+  .plain-text h1 {
+    font-size: 0.5rem;
+    margin: 0 auto;
+  }
+
   .hamburger{
     display: block;
   }
