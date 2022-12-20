@@ -16,23 +16,21 @@
 </head>
 <body>
     <header>
-        <nav id="nav" class="navbar">
-            <a href="index.html" class="nav-branding"><img src="assets/images/hllogo.png" class="logo"></a>
-          <ul class="nav-menu">
-            <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
-            <li class="nav-item"><a href="aboutus.html" class="nav-link">ABOUT</a></li>
-            <li class="nav-item"><a href="recentwork.html" class="nav-link">RECENT PROJECTS</a></li>
-            <li class="nav-item"><a href="contactus.html" class="nav-link">CONTACT</a></li>
-          </ul>
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>      
-          </div>
-        </nav>
-        <label for="nav-toggle" class="nav-toggle-label">
-          <span></span>
-        </label>
+        <section class="top-nav">
+            <div>
+                <a href="index.html"><img src="assets/images/hllogo.png" id="logo"></a>
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
+            <ul class="menu">
+                <li class="list"><a href="index.html">HOME</a></li>
+                <li class="list"><a href="aboutus.html">ABOUT</a></li>
+                <li class="list"><a href="recentwork.html">RECENT PROJECTS</a></li>
+                <li class="list"><a href="contactus.html" class="actual">CONTACT</a></li>
+            </ul>
+          </section>
     </header>
     <div class="wrapper">
         <div class="static-text">Looking for</div>
