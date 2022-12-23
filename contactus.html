@@ -32,7 +32,7 @@
             </ul>
           </section>
     </header>
-    <div class="wrapper">
+    <!-- <div class="wrapper">
         <div class="static-text">Looking for</div>
         <ul class="dynamic-text">
             <li><span>a Unique Design?</span></li>
@@ -40,6 +40,14 @@
             <li><span>On Hand Experts?</span></li>
             <li><span>Better Quality?</span></li>
         </ul>
+    </div> -->
+    <div class="dynamic">
+        <h1>Looking for <span class="auto-type"></span></h1>
+
+
+    </div>
+    <div id="mission">
+        <a href="#link-form" class="button" aria-label="Go to fill out our form"><span>Get in touch</span></a>
     </div>
 
     <!--Form section-->
@@ -124,13 +132,6 @@
                         <option value="lksmelse">Something else</option>
                     </select>
                     <br>
-                    <label for="lkfor" class="lk">To be done:</label>
-                    <select name="lkfor" class="lkfor">
-                        <option value="lkkitchen">Next month</option>
-                        <option value="lkwardrobe">Next 2-3 months</option>
-                        <option value="lktvunit">Next 4-6 months</option>
-                        <option value="lkoffice">Not sure yet</option>
-                    </select>
                     <div class="input-container textarea">
                         <textarea name="message" class="input"></textarea>
                         <label for="message">Message</label>
@@ -163,8 +164,19 @@
             </div>
         </div>
     </footer>
-    
-</body>
 
-<script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        // dynamic text
+	var typed = new Typed(".auto-type", {
+		strings: ["a Unique Design?", "Furniture Longevity?", "On Hand Experts?", "Better Quality?"],
+		typeSpeed: 80,
+		backSpeed: 80,
+		loop: true
+	})
+    </script>
+</body>
 </html>
