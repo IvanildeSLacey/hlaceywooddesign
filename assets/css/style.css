@@ -986,7 +986,7 @@ footer {
     width: calc(96% / 2);
   }
 
-  .plain-text {
+/*   .plain-text {
     font-size: 1 rem;
-  }
+  } */
 }
