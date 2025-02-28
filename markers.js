@@ -19,3 +19,14 @@ addMarker(50.8570, 0.5400, '<a href="https://example.com/BexhillRoad" target="_b
 addMarker(52.2250, 0.8000, '<a href="https://example.com/LowerGorse" target="_blank">Lower Gorse</a>', 'Cargate Engineering');
 addMarker(52.8430, -8.9860, '<a href="https://example.com/TracklandsBusinessPark" target="_blank">Tracklands Business Park</a>', 'CES Environmental');
 addMarker(52.8430, -8.9860, '<a href="https://example.com/QuinRoadBusinessPark" target="_blank">Quin Road Business Park</a>', 'Clare Drains');
+addMarker(55.8459, -4.2156, '<a href="https://example.com/GlasgowG403PX" target="_blank">Glasgow G40 3PX</a>', 'Clearwater');
+addMarker(53.7749, -0.3394, '<a href="https://example.com/HU70XW" target="_blank">HU7 0XW</a>', 'Clearway');
+addMarker(51.7590, -0.1100, '<a href="https://example.com/EdwardsGreenFarm" target="_blank">Edwards Green Farm</a>', 'Convert Water');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'CPJ Environmental');
+addMarker(54.6410, -8.1090, '<a href="https://example.com/Ardlenagh" target="_blank">Ardlenagh</a>', 'Donegal Waste');
+addMarker(51.6700, -1.2820, '<a href="https://example.com/NuffieldWay" target="_blank">Nuffield Way</a>', 'Drain Technology');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Drainforce');
+addMarker(55.0308, -7.7503, '<a href="https://example.com/LeiterKilmacrennan" target="_blank">Leiter Kilmacrennan</a>', 'DS Environmental');
+addMarker(53.7183, -1.4961, '<a href="https://example.com/WF33HA" target="_blank">WF3 3HA</a>', 'Duffy');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Elliot Environmental');
+addMarker(55.8396, -4.4911, '<a href="https://example.com/PA33BD" target="_blank">PA3 3BD</a>', 'Enva');
