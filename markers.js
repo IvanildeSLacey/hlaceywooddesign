@@ -44,3 +44,17 @@ addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_bla
 addMarker(55.8579, -4.3184, '<a href="https://example.com/G513HZ" target="_blank">G51 3HZ</a>', 'Merkland');
 addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'PRB Drainage');
 addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Pro Drainage');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'ROE Environmental');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Sapphire Utility Solutions');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Slicker');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'SOS Liquid Waste');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Sweeptech');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'SW Drainage');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Tank & Drain Services');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'TapThat Plumbers');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Taylors Industrial Services');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Telcoss');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Totus Environmental');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Trade Effluent Services');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'WB Drainage');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'William Gilder');
