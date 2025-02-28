@@ -25,7 +25,7 @@ addMarker(52.8430, -8.9860, '<a href="https://example.com/TracklandsBusinessPark
 addMarker(52.8430, -8.9860, '<a href="https://example.com/QuinRoadBusinessPark" target="_blank">Quin Road Business Park</a>', 'Clare Drains');
 addMarker(55.8459, -4.2156, '<a href="https://example.com/GlasgowG403PX" target="_blank">Glasgow G40 3PX</a>', 'Clearwater');
 addMarker(53.7749, -0.3394, '<a href="https://example.com/HU70XW" target="_blank">HU7 0XW</a>', 'Clearway');
-addMarker(51.7590, -0.1100, '<a href="https://example.com/EdwardsGreenFarm" target="_blank">Edwards Green Farm</a>', 'Convert Water');
+addMarker(51.76585349051085, -0.07648918926503993, '<a href="https://example.com/EdwardsGreenFarm" target="_blank">Edwards Green Farm</a>', 'Convert Water');
 addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'CPJ Environmental');
 addMarker(54.6410, -8.1090, '<a href="https://example.com/Ardlenagh" target="_blank">Ardlenagh</a>', 'Donegal Waste');
 addMarker(51.6700, -1.2820, '<a href="https://example.com/NuffieldWay" target="_blank">Nuffield Way</a>', 'Drain Technology');
