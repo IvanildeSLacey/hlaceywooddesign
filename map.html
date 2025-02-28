@@ -1,20 +1,25 @@
 <!--Welcome! This is my first website project, if you wish to contact me you can do so on: sobierai.ivanilde@gmail.com, thank you for visiting :) -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Interactive Map</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <style>
-        #map { height: 600px; }
-    </style>
-</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Harry Lacey Carpentry, Carpentry services in Ireland">
+    <meta name="keywords" content="Harry Lacey, carpentry services, carpenter Ireland, carpenter Tipperary, carpenter Thurles, carpenter Dublin, joinery, bespoke wardrobes, alcove units, bespoke kitchen, walk-in wardrobes, bespoke office, panelling, slatted wall, interior design">
+    <title>Harry Lacey Wood Design</title>
+
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/feb4a38862.js" crossorigin="anonymous"></script>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <!-- CSS path connection -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        #map { height: 600px; margin-bottom: 20px; }
+    </style>
 </head>
+
 <body>
     <header>
         <section class="top-nav">
@@ -33,10 +38,80 @@
             </ul>
         </section>
     </header>
-<body>
+
+    <!-- Integrated Map -->
     <div id="map"></div>
+
+    <!-- Main section/ethos -->
+    <div class="plain-text">
+        <h1>At Harry Lacey Wood Design we value durability! Everything we do is made to measure and carefully designed to make the best use of your space with the best available materials within your budget.</h1>
+    </div>
+
+    <!-- Week's project - TO BE UPDATED WEEKLY -->
+    <section>
+        <div><h1 id="recenth1">WEEK'S FEATURED PROJECT↓</h1></div>
+        <div id="content-wrapper">
+            <div class="column">
+                <img id="featured" src="assets/images/wardrobesq.jpeg" alt="Featured Wardrobe">
+                <div id="slide-wrapper">
+                    <div class="arrow">
+                        <i class="fa-solid fa-arrow-left" id="slideLeft"></i>
+                    </div>
+                    <div id="slider">
+                        <img class="thumbnail active" src="assets/images/wardrobesq.jpeg" alt="Thumbnail 1">
+                        <img class="thumbnail" src="assets/images/wardrobe2sq.jpeg" alt="Thumbnail 2">
+                        <img class="thumbnail" src="assets/images/drawersq.jpeg" alt="Thumbnail 3">
+                        <img class="thumbnail" src="assets/images/drawer2sq.jpeg" alt="Thumbnail 4">
+                    </div>
+                    <div class="arrow">
+                        <i class="fa-solid fa-arrow-right" id="slideRight"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <h1>Walnut Wardrobe</h1>
+                <p>This week's featured project is one of our most recent bespoke his and hers walk-in wardrobes!</p>
+                <p>→ Made from real walnut veneer</p>
+                <p>→ With fabric jewelry drawer inserts</p>
+                <p>→ Pull down hanging rails</p>
+                <p>→ Under-shelving recessed LED lights.</p>
+                <div class="abt-btn">
+                    <a class="button" href="contactus.html"><span>Contact Us</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer-content">
+            <ul class="social-networks">
+                <li>
+                    <a href="tel:+353877699962" target="_blank" rel="noopener" aria-label="Call us on 0877699962"><i class="fa-solid fa-phone"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100071893128347" target="_blank" rel="noopener" aria-label="Visit our Facebook page (link opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/harrylaceywooddesign/" target="_blank" rel="noopener" aria-label="Check out our Instagram page (link opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://wa.me/353877699962" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp (opens in a new tab)"><i class="fa-brands fa-whatsapp"></i></a>
+                </li>
+            </ul>
+            <div id="copyright">
+                <p>©2022 by Harry Lacey Wood Design</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="mapInit.js"></script>
     <script src="markers.js"></script>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/feb4a38862.js" crossorigin="anonymous"></script>
+    <!-- Javascript path connection -->
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
+
