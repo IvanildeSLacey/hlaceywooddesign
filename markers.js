@@ -30,3 +30,17 @@ addMarker(55.0308, -7.7503, '<a href="https://example.com/LeiterKilmacrennan" ta
 addMarker(53.7183, -1.4961, '<a href="https://example.com/WF33HA" target="_blank">WF3 3HA</a>', 'Duffy');
 addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Elliot Environmental');
 addMarker(55.8396, -4.4911, '<a href="https://example.com/PA33BD" target="_blank">PA3 3BD</a>', 'Enva');
+addMarker(55.7713, -4.2078, '<a href="https://example.com/G745HA" target="_blank">G74 5HA</a>', 'Enviro-Clean');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Eurotank');
+addMarker(51.3038, 0.4623, '<a href="https://example.com/ME207JZ" target="_blank">ME20 7JZ</a>', 'GC Pumps');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Glancy Environmental');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Glanville Environmental');
+addMarker(54.0651, -1.0924, '<a href="https://example.com/YO611EY" target="_blank">YO61 1EY</a>', 'Harpers Environmental');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Intech Environmental');
+addMarker(53.4355, -2.4231, '<a href="https://example.com/M445EG" target="_blank">M44 5EG</a>', 'IWJS');
+addMarker(53.4888, -2.3517, '<a href="https://example.com/M309PJ" target="_blank">M30 9PJ</a>', 'Lanes Group');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Mantank');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'McBreen');
+addMarker(55.8579, -4.3184, '<a href="https://example.com/G513HZ" target="_blank">G51 3HZ</a>', 'Merkland');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'PRB Drainage');
+addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Pro Drainage');
