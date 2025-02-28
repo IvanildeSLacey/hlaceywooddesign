@@ -3,7 +3,12 @@ function addMarker(lat, lng, popupContent, tooltipContent) {
     var marker = L.marker([lat, lng]).addTo(map);
     marker.bindPopup(popupContent);
     marker.bindTooltip(tooltipContent, {permanent: false, direction: 'top'});
+    // Extend the bounds to include this marker
+    bounds.extend(marker.getLatLng());
 }
+
+// Create a bounds object to store all the marker coordinates
+var bounds = L.latLngBounds();
 
 // Add markers for the given addresses with links and tooltips
 addMarker(52.6730, -8.6189, '<a href="https://example.com/E41PF60" target="_blank">E41PF60</a>', 'Roadvacs IRL Ltd');
