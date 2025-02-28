@@ -1,3 +1,4 @@
+<!--Welcome! This is my first website project, if you wish to contact me you can do so on: sobierai.ivanilde@gmail.com, thank you for visiting :) -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,6 +10,29 @@
         #map { height: 600px; }
     </style>
 </head>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/feb4a38862.js" crossorigin="anonymous"></script>
+    <!-- CSS path connection -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <section class="top-nav">
+            <div>
+                <a href="index.html"><img src="assets/images/hllogo.png" id="logo" alt="Harry Lacey Wood Design Logo"></a>
+            </div>
+            <input id="menu-toggle" type="checkbox"/>
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <li class="list"><a href="index.html" class="actual">HOME</a></li>
+                <li class="list"><a href="aboutus.html">ABOUT</a></li>
+                <li class="list"><a href="recentwork.html">RECENT PROJECTS</a></li>
+                <li class="list"><a href="map.html">CONTACT</a></li>
+            </ul>
+        </section>
+    </header>
 <body>
     <div id="map"></div>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
