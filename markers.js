@@ -1,18 +1,18 @@
-// Define red and green icons
+// Define red and green icons with the correct path
 var redIcon = L.icon({
     iconUrl: 'path/to/redIcon.png',
-    iconSize: [25, 41], // size of the icon
-    iconAnchor: [12, 41], // point of the icon which will correspond to marker's location
-    popupAnchor: [1, -34], // point from which the popup should open relative to the iconAnchor
-    tooltipAnchor: [16, -28] // point from which the tooltip should open relative to the iconAnchor
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    tooltipAnchor: [16, -28]
 });
 
 var greenIcon = L.icon({
     iconUrl: 'path/to/greenIcon.png',
-    iconSize: [25, 41], // size of the icon
-    iconAnchor: [12, 41], // point of the icon which will correspond to marker's location
-    popupAnchor: [1, -34], // point from which the popup should open relative to the iconAnchor
-    tooltipAnchor: [16, -28] // point from which the tooltip should open relative to the iconAnchor
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    tooltipAnchor: [16, -28]
 });
 
 // Function to add a marker with a link and tooltip
