@@ -62,3 +62,6 @@ addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_bla
 addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Trade Effluent Services');
 addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'WB Drainage');
 addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'William Gilder');
+
+// Set the map view to the bounds
+map.fitBounds(bounds);
