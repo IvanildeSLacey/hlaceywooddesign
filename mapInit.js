@@ -1,7 +1,8 @@
-// Initialize the map and set its view to a default location
-var map = L.map('map').setView([52.6680, -8.6305], 10);
+// Initialize the map
+var map = L.map('map').setView([52.6680, -8.6305], 13);
 
-// Add a tile layer to the map (OpenStreetMap in this case)
+// Add the OpenStreetMap tiles
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© OpenStreetMap contributors'
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
