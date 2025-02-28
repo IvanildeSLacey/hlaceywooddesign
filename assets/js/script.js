@@ -67,4 +67,3 @@ for (var i=0; i < thumbnails.length; i++){
 	buttonRight.addEventListener('click', function(){
 		document.getElementById('slider').scrollLeft += 180
 	})
-	
