@@ -46,22 +46,22 @@ addMarker(53.48755929340492, -2.3527243342952446, '<a href="https://example.com/
 addMarker(53.525221796043745, -2.505899660317118, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Mantank');
 addMarker(54.01951629557752, -7.322615931448899, '<a href="https://example.com/Location" target="_blank">Location</a>', 'McBreen');
 addMarker(55.858238682440394, -4.316711151501831, '<a href="https://example.com/G513HZ" target="_blank">G51 3HZ</a>', 'Merkland');
-addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'PRB Drainage');
-addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Pro Drainage');
-addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'ROE Environmental');
-addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Sapphire Utility Solutions');
-addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Slicker');
-addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'SOS Liquid Waste');
-addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Sweeptech');
-addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'SW Drainage');
-addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Tank & Drain Services');
-addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'TapThat Plumbers');
-addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Taylors Industrial Services');
-addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Telcoss');
-addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Totus Environmental');
-addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Trade Effluent Services');
-addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'WB Drainage');
-addMarker(53.3331, -6.2489, '<a href="https://example.com/Location" target="_blank">Location</a>', 'William Gilder');
+addMarker(52.555394178511634, -1.3735993656640682, '<a href="https://example.com/Location" target="_blank">Location</a>', 'PRB Drainage');
+addMarker(50.80838111575855, -1.917235630618402, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Pro Drainage');
+addMarker(51.645376424165974, 0.6852619619882994, '<a href="https://example.com/Location" target="_blank">Location</a>', 'ROE Environmental');
+addMarker(53.72446366917978, -2.6709095321705836, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Sapphire Utility Solutions');
+addMarker(52.33939528431693, -2.2724574654373644, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Slicker');
+addMarker(53.24185038124966, -9.508786643767106, '<a href="https://example.com/Location" target="_blank">Location</a>', 'SOS Liquid Waste');
+addMarker(50.9730791469618, -0.19619458029157244, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Sweeptech');
+addMarker(51.34155056080233, 0.5580595739819524, '<a href="https://example.com/Location" target="_blank">Location</a>', 'SW Drainage');
+addMarker(53.493546435012924, -6.193358963213006, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Tank & Drain Services');
+addMarker(52.013488974272725, -0.345711572701091, '<a href="https://example.com/Location" target="_blank">Location</a>', 'TapThat Plumbers');
+addMarker(57.11264332655676, -2.0771283590749023, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Taylors Industrial Services');
+addMarker(54.58359309329067, -1.1171870023019557, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Telcoss');
+addMarker(53.30195412362036, -2.3707079273847267, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Totus Environmental');
+addMarker(53.201969106012974, -3.004520820773555, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Trade Effluent Services');
+addMarker(53.351905346126195, -2.5327937341551094, '<a href="https://example.com/Location" target="_blank">Location</a>', 'WB Drainage');
+addMarker(52.00279982846905, -2.0562475243113942, '<a href="https://example.com/Location" target="_blank">Location</a>', 'William Gilder');
 
 // Set the map view to the bounds
 map.fitBounds(bounds);
