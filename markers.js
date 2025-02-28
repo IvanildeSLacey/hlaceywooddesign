@@ -1,6 +1,6 @@
 // Define red and green icons
 var redIcon = L.icon({
-    iconUrl: 'path/to/redIcon.png', // Ensure this path is correct
+    iconUrl: 'assets/images/redlocation.webp', // Path to your red icon
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
@@ -8,7 +8,7 @@ var redIcon = L.icon({
 });
 
 var greenIcon = L.icon({
-    iconUrl: 'path/to/greenIcon.png', // Ensure this path is correct
+    iconUrl: 'assets/images/greenlocation.webp', // Path to your green icon
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
