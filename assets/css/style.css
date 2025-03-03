@@ -199,21 +199,25 @@ h1 {
   .plain-text {
     max-width: 90%;
     margin: 8vh;
-    height: 40vh;
+    height: 20vh;
     display: flex;
     text-align: center;
     margin: auto;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/images/logot.png");
     background-size: 30vh;
     background-repeat: no-repeat;
     background-position: center;
-    font-size: 12px;
+    background-color: #172741;
+    font-size: 50px;
     }
   
     .plain-text h1 {
-      color: #172741;
+      color: #d65e20;
+    }
+
+    .plain-text h2 {
+      color: #6f88b4;
     }
 
     /* About us */
