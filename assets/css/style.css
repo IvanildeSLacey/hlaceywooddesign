@@ -35,7 +35,7 @@ h1 {
 }
 
 .list:hover {
-  border-bottom: 3px solid #C4A862;
+  border-bottom: 3px solid #d65e20;
 }
 
 .top-nav {
@@ -50,8 +50,8 @@ h1 {
 }
 
 .list .actual {
-  color:#c5aa64;
-  border-bottom: 2px solid #c5aa64;
+  color:#d65e20;
+  border-bottom: 2px solid #d65e20;
   font-weight: bold;
 }
 
@@ -233,7 +233,7 @@ h1 {
     }
       
     .aboutus h1 {
-      color: #c5aa64;
+      color: #d65e20;
     }
       
     .aboutus h2 {
@@ -292,7 +292,7 @@ h1 {
     }
 
     .auto-type {
-      color: #c5aa64;
+      color: #d65e20;
     }
 
     .wrapper{
@@ -368,7 +368,7 @@ h1 {
     position: absolute;
     width: 26px;
     height: 26px;
-    background-color: #c5aa64;
+    background-color: #d65e20;
     transform: rotate(45deg);
     top: 50px;
     left: -13px;
@@ -450,7 +450,7 @@ h1 {
   
   .btn:hover {
     background-color: white;
-    color: #c5aa64;
+    color: #d65e20;
   }
   
   .input-container span {
@@ -472,7 +472,7 @@ h1 {
     opacity: 0;
     transition: 0.3s;
     height: 5px;
-    background-color: #c5aa64;
+    background-color: #d65e20;
     top: 50%;
     transform: translateY(-50%);
   }
@@ -550,7 +550,7 @@ h1 {
   
   .social-icons a:hover {
     transform: scale(1.05);
-    background: linear-gradient(45deg, #c1b188, #c5aa64);
+    background: linear-gradient(45deg, #c19f88, #d65e20);
   }
   
   .contact-info:before {
@@ -558,7 +558,7 @@ h1 {
     position: absolute;
     width: 110px;
     height: 100px;
-    border: 22px solid #c5aa64;
+    border: 22px solid #d65e20;
     border-radius: 50%;
     bottom: -77px;
     right: 50px;
@@ -570,7 +570,7 @@ h1 {
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background: linear-gradient(to bottom, rgba(167,160,145,0.6), #c5aa64);
+    background: linear-gradient(to bottom, rgba(167,160,145,0.6), #d65e20);
     bottom: 50%;
     right: 50%;
     transform: translate(-40%, 38%);
@@ -678,7 +678,7 @@ h1 {
   }
   
   #slider::-webkit-scrollbar-thumb:hover{
-    outline: 3px solid #c5aa64;
+    outline: 3px solid #d65e20;
   }
   
   .arrow{
@@ -842,7 +842,7 @@ footer {
 }
 
 .social-networks i:hover {
-  color: #C4A862;
+  color: #d65e20;
 }
 
 /* Media Queries*/
@@ -958,7 +958,7 @@ footer {
   }
 
   .auto-type {
-    color: #c5aa64;
+    color: #d65e20;
   }
 
   .form {
