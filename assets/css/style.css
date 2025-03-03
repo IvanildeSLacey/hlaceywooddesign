@@ -367,7 +367,7 @@ h1 {
   
   .circle {
     border-radius: 50%;
-    background: linear-gradient(135deg, transparent 20%, #c5aa64);
+    background: linear-gradient(135deg, transparent 20%, #d65e20);
     position: absolute;
   }
   
@@ -572,7 +572,7 @@ h1 {
   
   .social-icons a:hover {
     transform: scale(1.05);
-    background: linear-gradient(45deg, #c19f88, #d65e20);
+    background: linear-gradient(45deg, #c19a88, #d65e20);
   }
   
   .contact-info:before {
