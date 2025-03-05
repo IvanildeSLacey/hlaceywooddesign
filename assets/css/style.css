@@ -26,6 +26,29 @@ h1 {
   align-items: center;
 }
 
+#hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+
+  position: relative;
+}
+
+#cover-text, #cover-text h2 {
+  color: #fff;
+}
+
+#hero-image {
+  height: 600px;
+  width: 100%;
+  background: url("assets/images/Muller-gallery.png") no-repeat center center;
+
+  /* animates zoom efect on loading page */
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
 .list a {
   transition: 0.7 ease;
   color: white;
