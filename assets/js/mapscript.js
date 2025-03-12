@@ -105,5 +105,6 @@ addMarker(52.00279982846905, -2.0562475243113942, '<a href="https://example.com/
 addMarker(53.97336261621961, -6.720400815345416, '<a href="https://example.com/E41PF60" target="_blank">E41PF60</a>', 'JC Enviro', redIcon);
 addMarker(53.11714560680234, -6.096205340493168, '<a href="https://example.com/E41PF60" target="_blank">E41PF60</a>', 'Kelly Drain', redIcon);
 addMarker(53.486257622126836, -2.856244842327292, '<a href="https://example.com/E41PF60" target="_blank">E41PF60</a>', 'Ancorra Environmental', redIcon);
+addMarker(53.28294339717505, -6.452016247804731, '<a href="https://example.com/E41PF60" target="_blank">E41PF60</a>', 'Ancorra Environmental', redIcon);
 // Set the map view to the bounds
 map.fitBounds(bounds);
