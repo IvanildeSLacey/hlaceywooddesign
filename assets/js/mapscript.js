@@ -47,10 +47,9 @@ function addMarker(lat, lng, popupContent, tooltipContent, icon) {
 // Create a bounds object to store all the marker coordinates
 var bounds = L.latLngBounds();
 
-// Add markers with different colors
-//addMarker(52.6730, -8.6189, '<a href="https://example.com/E41PF60" target="_blank">E41PF60</a>', 'Roadvacs IRL Ltd', redIcon);
-// Add markers for the given addresses with links and tooltips
+// Add markers for our business addresses, blue,  with links and tooltips
 addMarker(52.6730, -8.6189, '<a href="https://example.com/E41PF60" target="_blank">E41PF60</a>', 'Roadvacs IRL Ltd', blueIcon);
+// Add markers for our customers addresses, green,  with links and tooltips
 addMarker(51.938095132372545, 0.8156100675818344, '<a href="https://example.com/Greenacres" target="_blank">Greenacres</a>', 'AA Turner Tankers', greenIcon);
 addMarker(54.937771352904385, -2.992587402552944, '<a href="https://example.com/Andidrain" target="_blank">Andidrain Ltd</a>', 'AD Andidrain Ltd', greenIcon);
 addMarker(54.11692439470301, -1.5766532418992028, '<a href="https://example.com/StationParade" target="_blank">80 Station Parade</a>', 'Adler & Allan', greenIcon);
@@ -101,6 +100,9 @@ addMarker(53.30195412362036, -2.3707079273847267, '<a href="https://example.com/
 addMarker(53.201969106012974, -3.004520820773555, '<a href="https://example.com/Location" target="_blank">Location</a>', 'Trade Effluent Services', greenIcon);
 addMarker(53.351905346126195, -2.5327937341551094, '<a href="https://example.com/Location" target="_blank">Location</a>', 'WB Drainage', greenIcon);
 addMarker(52.00279982846905, -2.0562475243113942, '<a href="https://example.com/Location" target="_blank">Location</a>', 'William Gilder', greenIcon);
+
+// Add markers for our potential customers, red,  with links and tooltips
+addMarker(53.97336261621961, -6.720400815345416, '<a href="https://example.com/E41PF60" target="_blank">E41PF60</a>', 'JC Enviro', redIcon);
 
 // Set the map view to the bounds
 map.fitBounds(bounds);
