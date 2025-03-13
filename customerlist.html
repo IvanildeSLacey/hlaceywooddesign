@@ -1,4 +1,3 @@
-<!--Welcome! This is my first project, if you wish to contact me you can do so on: sobierai.ivanilde@gmail.com, thank you for visiting :) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,8 +14,24 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <!-- CSS path connection -->
     <link rel="stylesheet" href="assets/css/style.css">
+    
     <style>
-        #map { height: 600px; margin-bottom: 20px; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        input {
+            margin: 10px;
+        }
     </style>
 </head>
 
@@ -37,6 +52,34 @@
             </ul>
         </section>
     </header>
+
+    <main>
+        <h1>Truck Records</h1>
+        <label for="customerFilter">Filter by Customer:</label>
+        <input type="text" id="customerFilter" oninput="filterTable()" placeholder="Enter customer name">
+        
+        <label for="makeFilter">Filter by Make:</label>
+        <input type="text" id="makeFilter" oninput="filterTable()" placeholder="Enter make">
+        
+        <label for="yearFilter">Filter by Year:</label>
+        <input type="text" id="yearFilter" oninput="filterTable()" placeholder="Enter year">
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Customer</th>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Registration Plate</th>
+                    <th>Build Number</th>
+                    <th>Delivery Date</th>
+                </tr>
+            </thead>
+            <tbody id="truckTable">
+                <!-- Rows of truck data will go here -->
+            </tbody>
+        </table>
+    </main>
     
     <footer>
         <div id="footer-content">
@@ -64,9 +107,47 @@
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="assets/js/mapInit.js"></script>
     <script src="assets/js/markers.js"></script>
-    <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/feb4a38862.js" crossorigin="anonymous"></script>
-    <!-- Javascript path connection -->
-    <script src="assets/js/script.js"></script>
+    <script>
+        const trucks = [
+            { customer: "Company A", make: "Volvo", model: "FH16", regPlate: "123-ABC", buildNumber: "001", deliveryDate: "2023-05-10" },
+            { customer: "Company B", make: "Scania", model: "R500", regPlate: "456-DEF", buildNumber: "002", deliveryDate: "2024-03-15" },
+            { customer: "Company A", make: "MAN", model: "TGX", regPlate: "789-GHI", buildNumber: "003", deliveryDate: "2023-11-20" }
+        ];
+
+        const tableBody = document.getElementById("truckTable");
+
+        trucks.forEach(truck => {
+            const row = document.createElement("tr");
+            row.innerHTML = `
+                <td>${truck.customer}</td>
+                <td>${truck.make}</td>
+                <td>${truck.model}</td>
+                <td>${truck.regPlate}</td>
+                <td>${truck.buildNumber}</td>
+                <td>${truck.deliveryDate}</td>
+            `;
+            tableBody.appendChild(row);
+        });
+
+        function filterTable() {
+            const customerFilter = document.getElementById("customerFilter").value.toLowerCase();
+            const makeFilter = document.getElementById("makeFilter").value.toLowerCase();
+            const yearFilter = document.getElementById("yearFilter").value.toLowerCase();
+
+            const rows = document.querySelectorAll("#truckTable tr");
+            rows.forEach(row => {
+                const cells = row.children;
+                const customer = cells[0].textContent.toLowerCase();
+                const make = cells[1].textContent.toLowerCase();
+                const deliveryYear = cells[5].textContent.split("-")[0];
+
+                const matchesCustomer = customer.includes(customerFilter) || customerFilter === "";
+                const matchesMake = make.includes(makeFilter) || makeFilter === "";
+                const matchesYear = deliveryYear.includes(yearFilter) || yearFilter === "";
+
+                row.style.display = matchesCustomer && matchesMake && matchesYear ? "" : "none";
+            });
+        }
+    </script>
 </body>
 </html>
