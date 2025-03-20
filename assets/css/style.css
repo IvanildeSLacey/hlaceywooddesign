@@ -13,16 +13,16 @@ body {
   font-size: 1rem;
 }
 
-#blue {
+/*#blue {
   background-color: #172741;
 }
 
 h1 {
   text-align: center;
-}
+}*/
 
 #logo {
-  height: 12vh;
+  height: 10vh;
   align-items: center;
 }
 
@@ -120,7 +120,7 @@ h1 {
 
 /* Buttons */
 
-#mission {
+/*#mission {
   margin: 25px 25px 50px;
   text-align: center;
   font-size: 1.25rem;
@@ -132,7 +132,7 @@ h1 {
     text-align: center;
     font-size: 1.25rem;
     font-weight: bold;
-}
+}*/
 
 .button {
     border-radius: 12px;
@@ -174,7 +174,7 @@ h1 {
 
 /* Carousel */
 
-.carousel {
+/*.carousel {
     height: 80vh;
     position: relative;
     display: flex;
@@ -193,10 +193,10 @@ h1 {
     z-index:-1;
     opacity: 0;
     transition: opacity 0.75s ease-in-out;
-  }
+  }*/
 
   /* Main msg home page */ 
-  .plain-text {
+  /*.plain-text {
     max-width: 90%;
     margin: 8vh;
     height: 20vh;
@@ -234,13 +234,11 @@ h1 {
     
       .ethos-text-road h5 {
         color: #d65e20;
-      }
-
-
+      }*/
 
     /* About us */
 
-    #about1 {
+    /*#about1 {
       display: contents;
     }
 
@@ -295,7 +293,7 @@ h1 {
       align-items: center;
       width: 80%;
       border-radius: 25px;
-    }
+    }*/
 
     /* Contact Page */
 
